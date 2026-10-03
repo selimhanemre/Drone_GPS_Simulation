@@ -29,16 +29,16 @@ def navigate_to(master, target_x, target_y, target_z, tolerance=0.5, timeout=25.
     """Stream setpoints until within tolerance radius of target coordinate."""
     start_time = time.time()
     log(f"Navigating to Target: x={target_x}m, y={target_y}m, z={target_z}m (Radius: {tolerance}m)")
-
+    
     while True:
         # Stream setpoint continuously (PX4 requires >= 2Hz stream)
         send_setpoint(master, target_x, target_y, target_z)
-
+        
         pos = get_current_position(master)
         if pos:
             cur_x, cur_y, cur_z = pos
             dist = math.sqrt((cur_x - target_x)**2 + (cur_y - target_y)**2 + (cur_z - target_z)**2)
-
+            
             # Distance feedback every 1 second
             if int(time.time() * 2) % 2 == 0:
                 print(f"\r  Current: ({cur_x:.1f}, {cur_y:.1f}, {cur_z:.1f}) -> Target Dist: {dist:.2f}m   ", end="", flush=True)
@@ -47,12 +47,12 @@ def navigate_to(master, target_x, target_y, target_z, tolerance=0.5, timeout=25.
                 print()  # newline
                 log(f"Reached Target: ({cur_x:.2f}, {cur_y:.2f}, {cur_z:.2f})")
                 break
-
+                
         if (time.time() - start_time) > timeout:
             print()
             log(f"Warning: Waypoint timed out after {timeout}s.")
             break
-
+            
         time.sleep(0.1)  # 10Hz loop rate
 
 def run_flight():

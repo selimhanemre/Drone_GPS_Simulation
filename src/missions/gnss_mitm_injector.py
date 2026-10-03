@@ -7,8 +7,8 @@ R_EARTH = 6378137.0  # WGS-84 equatorial radius
 
 
 class GNSSSpooferNode:
-    def __init__(self, mode="nominal", attack_start_time=25.0):
-        # Collection clock: elapsed wall time after the first NavSat message.
+    def __init__(self, mode="nominal", attack_start_time=27.0):
+        # Wait for 2s before PX4 is ready for takeoff then start mission right away so 25 + 2 = 27
         self.node = Node()
         self.mode = mode.lower()
         self.t_start = attack_start_time
@@ -59,7 +59,7 @@ class GNSSSpooferNode:
             lat_rad = math.radians(msg.latitude_deg)
             # Standard equirectangular projection for local metric offset
             delta_lon_deg = (d_east / (R_EARTH * math.cos(lat_rad))) * (180.0 / math.pi)
-
+            
             # Apply position and velocity spoofing directly
             spoofed_msg.longitude_deg += delta_lon_deg
             spoofed_msg.velocity_east += v_east

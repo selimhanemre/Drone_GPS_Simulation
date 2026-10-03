@@ -3,16 +3,7 @@ __pycache__/
 .venv/
 venv/
 .pytest_cache/
-.coverage
-htmlcov/
 .DS_Store
 Thumbs.db
 .env
 .env.*
-data/raw_ulog/
-data/supplied/
-data/corrected/
-data/downloads/
-results/local/
-*.ulg
-*.zip

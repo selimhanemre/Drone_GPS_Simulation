@@ -1,115 +1,115 @@
 # Drone GPS Simulation
 
-**Reproducible simulation data and analysis for GNSS spoofing detection.**
+**Code, simulation data, and supplied results for GNSS spoofing research.**
 
-[![Research artifact checks](https://github.com/selimhanemre/Drone_GPS_Simulation/actions/workflows/tests.yml/badge.svg)](https://github.com/selimhanemre/Drone_GPS_Simulation/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-167d9a.svg)](LICENSE)
-[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776ab.svg)](requirements.txt)
-[![Research release](https://img.shields.io/badge/Research_artifact-v0.1.0-7254af.svg)](https://github.com/selimhanemre/Drone_GPS_Simulation/releases/tag/v0.1.0)
+[![Original project](https://img.shields.io/badge/Project-original_source-7254af.svg)](https://github.com/selimhanemre/Drone_GPS_Simulation/releases/tag/v0.1.1)
 
-[Quick start](#quick-start) · [Results](docs/RESULTS.md) · [Reproduce](docs/REPRODUCIBILITY.md) · [Dataset](data/README.md) · [Methodology](docs/METHODOLOGY.md) · [Citation](#citation)
+[Research](#research) · [Project contents](#project-contents) · [Original workflow](#original-workflow) · [Results](#supplied-results) · [Citation](#citation)
 
-## Associated research
+## Research
 
 **Defending the Autonomous Airspace: Real-Time Defense of Stealthy GNSS Spoofing via Kinematic Memory**
 
 Selimhan Dagtas · Muzakkiruddin Ahmed Mohammed · Abdelrahman Elfikky
 
-This repository accompanies the research project with 40 PX4 software-in-the-loop flight logs, portable telemetry processing, and three detector baselines: a one-sided standardized residual threshold, Isolation Forest, and leaky CUSUM. Four scenarios contain ten flights each: nominal, step, ramp, and stealth.
+The project contains a PX4/Gazebo flight simulation workflow and an analysis of three detector baselines: Mahalanobis, Isolation Forest, and leaky CUSUM. The dataset contains **40 recorded simulation flights**, with ten flights in each of four categories: nominal, step attack, ramp attack, and stealth attack.
 
-The current release supports **offline reproduction**. Publication details and a manuscript PDF were not supplied for this release. The real-time performance implied by the manuscript title has not been established by this offline artifact.
+This repository presents the original project supplied in `Drone_GPS_Simulation.zip`. All **291 source, data, requirements, and result files** retain their original paths and byte content. Repository additions are limited to this README, the MIT license, citation metadata, and Git housekeeping files. The archive's embedded `.git` directory is excluded.
 
-## Research status
+## Project contents
 
-The release includes an audit and correction of the supplied analysis. The original extractor silently filled GNSS fields with zeros because its field names did not match the logged PX4 schema. The corrected extractor recovers the real telemetry and fails on missing required fields. Attack onset is **25 seconds**, as confirmed by a project contributor; the original flight time origins are preserved.
+```text
+Drone_GPS_Simulation/
+├── src/
+│   ├── missions/
+│   │   ├── run_mission.py
+│   │   └── gnss_mitm_injector.py
+│   └── pipeline/
+│       ├── 01_extract_logs.py
+│       ├── 02_resample_sync.py
+│       ├── 03_evaluate_defenses.py
+│       └── 03b_visualize_internals.py
+├── data/
+│   ├── raw_ulog/                 # 40 original PX4 flight logs
+│   └── processed/                # 200 intermediate CSVs
+│       └── synced/               # 40 synchronized flight CSVs
+├── results/
+│   ├── metrics/detector_benchmark.csv
+│   └── figures/                  # Three supplied PDF figures
+└── requirements.txt              # Original file, supplied empty
+```
 
-**With the supplied detector parameters, all three detectors raise false alarms on all five held-out nominal flights.** High attack-sample F1 scores must be read together with those false alarms. These results support further investigation; they do not establish a reliable deployed defense. See the [results and interpretation](docs/RESULTS.md) and [audit trail](docs/AUDIT.md).
+| Location | Contents |
+| :--- | :--- |
+| [`src/missions/`](src/missions/) | Waypoint mission and simulated GNSS perturbation scripts |
+| [`src/pipeline/`](src/pipeline/) | Original extraction, synchronization, evaluation, and visualization scripts |
+| [`data/raw_ulog/`](data/raw_ulog/) | Original `.ulg` files grouped by scenario |
+| [`data/processed/`](data/processed/) | Original telemetry tables and synchronized CSVs |
+| [`results/metrics/`](results/metrics/) | Supplied per-flight detector benchmark |
+| [`results/figures/`](results/figures/) | Supplied research figures |
 
-![Corrected held-out evaluation: example detector scores and east position estimation error](results/corrected-held-out/figures/detector_overview.png)
-
-*One example per scenario. Nominal flight 06 is held out from training; the attack examples are flight 01. Full per-flight metrics and vector figures are included.*
-
-## Quick start
-
-Use Python 3.12. The offline example needs no simulator, GPU, or external service.
+## Getting the project
 
 ```bash
 git clone https://github.com/selimhanemre/Drone_GPS_Simulation.git
 cd Drone_GPS_Simulation
-python -m venv .venv
 ```
 
-Activate the environment:
+The full dataset is included, so this is a substantial download. You can also download the complete project through **Code → Download ZIP** or the source archives attached to [release v0.1.1](https://github.com/selimhanemre/Drone_GPS_Simulation/releases/tag/v0.1.1).
+
+## Original workflow
+
+The original scripts import NumPy, pandas, Matplotlib, scikit-learn, pyulog, and pymavlink. The simulation injector additionally requires Gazebo's `gz.transport13` and `gz.msgs10` Python bindings, plus a configured PX4/Gazebo simulation environment. The supplied `requirements.txt` is empty; exact dependency versions were not recorded in the archive.
+
+The scripts retain the original environment paths, including `/home/ualr/Documents/Drone_GPS_Simulation`, `~/Documents/Drone_GPS_Simulation`, and the PX4 log directory under `~/PX4-Autopilot/`. Check these paths and the simulator topic configuration before running the collection workflow. The original Gazebo world/model configuration is not included in the archive.
+
+The original pipeline sequence is:
 
 ```bash
-# Linux / macOS
-source .venv/bin/activate
+# Extract the latest local PX4 log into a scenario category.
+python src/pipeline/01_extract_logs.py nominal
+
+# Synchronize the extracted telemetry.
+python src/pipeline/02_resample_sync.py
+
+# Evaluate the original detector implementation and generate its outputs.
+python src/pipeline/03_evaluate_defenses.py
+
+# Display the original diagnostic visualization.
+python src/pipeline/03b_visualize_internals.py
 ```
 
-```powershell
-# Windows PowerShell
-.\.venv\Scripts\Activate.ps1
-```
+Valid extraction categories are `nominal`, `step_attack`, `ramp_attack`, and `stealth_attack`. Evaluation writes to the configured project's `results` directory; preserve a copy of the supplied results before running your own experiments.
 
-```bash
-python -m pip install -r requirements.txt
-python src/pipeline/03_evaluate_defenses.py --data-dir data/example --output results/local/demo --protocol held-out
-```
+## Supplied results
 
-The included example contains four full corrected flight CSVs: nominal 01 and 06, step 01, and stealth 01. It checks the workflow; it is **not** the full benchmark. The output contains per-flight metrics, a summary, PNG/PDF/SVG figures, and a run manifest with configuration, training/evaluation identities, package versions, and input hashes.
+The following files are the original outputs delivered with the project. They have not been regenerated or replaced in this release.
 
-## Reproduce the full corrected analysis
-
-```bash
-python scripts/download_data.py corrected
-python src/pipeline/03_evaluate_defenses.py --data-dir data/corrected/synced --output results/local/full --protocol held-out
-python scripts/compare_results.py results/corrected-held-out/metrics/detector_benchmark.csv results/local/full/metrics/detector_benchmark.csv
-```
-
-The downloader verifies SHA-256 before extraction. Downloads are pinned to release `v0.1.0`. See [reproduction instructions](docs/REPRODUCIBILITY.md) for rebuilding from ULogs, replaying the historical analysis, and checking the environment.
-
-## What is included
-
-| Path | Contents |
+| File | Format |
 | :--- | :--- |
-| [`src/pipeline/`](src/pipeline/) | Schema-aware ULog extraction, synchronization, evaluation, and plots |
-| [`src/missions/`](src/missions/) | Supplied PX4/Gazebo simulation collection scripts |
-| [`configs/`](configs/) | Confirmed onset, detector parameters, and per-flight time origins |
-| [`data/`](data/README.md) | Four-flight example, dataset manifests, checksums, and download metadata |
-| [`results/corrected-held-out/`](results/corrected-held-out/) | Corrected evaluation: five training nominal flights; 35 evaluated flights |
-| [`results/corrected-all-nominal/`](results/corrected-all-nominal/) | Corrected data with the original all-nominal training convention |
-| [`results/supplied/`](results/supplied/) | Original CSV and three PDF figures, preserved unchanged |
-| [`results/legacy-replay/`](results/legacy-replay/) | Replay of the original zero-GNSS data and 20-second labels |
-| [`archive/original-code/`](archive/original-code/) | Original code retained for provenance |
+| [Detector benchmark](results/metrics/detector_benchmark.csv) | CSV containing flight, category, detector, F1, latency, and false-positive fields |
+| [CUSUM comparison](results/figures/fig_cusum_comparison.pdf) | PDF |
+| [Stealth detector internals](results/figures/fig_stealth_internals.pdf) | PDF |
+| [Physical deviation figure](results/figures/fig_physical_deviation.pdf) | PDF |
 
-The [versioned release](https://github.com/selimhanemre/Drone_GPS_Simulation/releases/tag/v0.1.0) holds the full raw, supplied processed, and corrected datasets. Large logs and the ZIP's embedded Git history are excluded from the source repository.
-
-## Validation and contribution
-
-```bash
-python -m pip install -r requirements-dev.txt
-python -m pytest -q
-```
-
-CI tests extraction regressions, time alignment, attack boundaries, false-alarm handling, and train/evaluation separation, then runs the included example on Linux and Windows. [Contributions](CONTRIBUTING.md) should include the experiment configuration and input identities for any changed result.
-
-To collect new simulated flights, read the [simulation notes](docs/SIMULATION.md). The original Gazebo world/model modification is missing from the supplied archive, so fresh collection is not yet fully reproducible from this repository alone.
+Use the original scripts and their parameter settings when interpreting these archived outputs. The release verifies faithful preservation of the supplied files; it does not add new experimental results or establish independent validation of the reported performance.
 
 ## Citation
 
-Use GitHub's **Cite this repository** menu or [`CITATION.cff`](CITATION.cff). Author order follows the project contributors' supplied manuscript metadata.
+The paper title and author order above were supplied by the project contributors. Publication venue and DOI are not specified in this release. Use [`CITATION.cff`](CITATION.cff) or GitHub's **Cite this repository** menu to cite this version of the software and dataset.
 
 ```bibtex
 @misc{dagtas2026dronegps,
   author = {Dagtas, Selimhan and Mohammed, Muzakkiruddin Ahmed and Elfikky, Abdelrahman},
-  title = {{Drone GPS Simulation: Defending the Autonomous Airspace}},
+  title = {{Drone GPS Simulation}},
   year = {2026},
-  howpublished = {Research software, version 0.1.0},
+  howpublished = {Research code and simulation dataset, version 0.1.1},
   url = {https://github.com/selimhanemre/Drone_GPS_Simulation},
-  note = {Artifact accompanying Defending the Autonomous Airspace: Real-Time Defense of Stealthy GNSS Spoofing via Kinematic Memory}
+  note = {Associated research: Defending the Autonomous Airspace: Real-Time Defense of Stealthy GNSS Spoofing via Kinematic Memory}
 }
 ```
 
 ## License
 
-Project code, documentation, and the project-provided simulation datasets are released under the [MIT License](LICENSE). PX4, Gazebo, and Python dependencies retain their respective licenses.
+Project code, documentation, and project-provided simulation data are available under the [MIT License](LICENSE). External dependencies retain their respective licenses.
