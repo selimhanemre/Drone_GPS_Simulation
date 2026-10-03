@@ -1,0 +1,282 @@
+[
+  {
+    "flight": "nominal/flight_01",
+    "samples": 2722,
+    "time_origin_px4_us": 18840000,
+    "duration_sec": 54.42,
+    "gnss_nonzero_horizontal_values": 5444
+  },
+  {
+    "flight": "nominal/flight_02",
+    "samples": 2702,
+    "time_origin_px4_us": 10760000,
+    "duration_sec": 54.02,
+    "gnss_nonzero_horizontal_values": 5404
+  },
+  {
+    "flight": "nominal/flight_03",
+    "samples": 2828,
+    "time_origin_px4_us": 21600000,
+    "duration_sec": 56.54,
+    "gnss_nonzero_horizontal_values": 5656
+  },
+  {
+    "flight": "nominal/flight_04",
+    "samples": 2785,
+    "time_origin_px4_us": 14320000,
+    "duration_sec": 55.68,
+    "gnss_nonzero_horizontal_values": 5570
+  },
+  {
+    "flight": "nominal/flight_05",
+    "samples": 2760,
+    "time_origin_px4_us": 76920000,
+    "duration_sec": 55.18,
+    "gnss_nonzero_horizontal_values": 5520
+  },
+  {
+    "flight": "nominal/flight_06",
+    "samples": 2793,
+    "time_origin_px4_us": 12560000,
+    "duration_sec": 55.84,
+    "gnss_nonzero_horizontal_values": 5586
+  },
+  {
+    "flight": "nominal/flight_07",
+    "samples": 2760,
+    "time_origin_px4_us": 9060000,
+    "duration_sec": 55.18,
+    "gnss_nonzero_horizontal_values": 5520
+  },
+  {
+    "flight": "nominal/flight_08",
+    "samples": 2847,
+    "time_origin_px4_us": 38180000,
+    "duration_sec": 56.92,
+    "gnss_nonzero_horizontal_values": 5694
+  },
+  {
+    "flight": "nominal/flight_09",
+    "samples": 2793,
+    "time_origin_px4_us": 14840000,
+    "duration_sec": 55.84,
+    "gnss_nonzero_horizontal_values": 5586
+  },
+  {
+    "flight": "nominal/flight_10",
+    "samples": 2768,
+    "time_origin_px4_us": 23160000,
+    "duration_sec": 55.34,
+    "gnss_nonzero_horizontal_values": 5536
+  },
+  {
+    "flight": "step_attack/flight_01",
+    "samples": 3093,
+    "time_origin_px4_us": 25000000,
+    "duration_sec": 61.84,
+    "gnss_nonzero_horizontal_values": 6186
+  },
+  {
+    "flight": "step_attack/flight_02",
+    "samples": 3120,
+    "time_origin_px4_us": 23780000,
+    "duration_sec": 62.38,
+    "gnss_nonzero_horizontal_values": 6240
+  },
+  {
+    "flight": "step_attack/flight_03",
+    "samples": 3065,
+    "time_origin_px4_us": 10940000,
+    "duration_sec": 61.28,
+    "gnss_nonzero_horizontal_values": 6130
+  },
+  {
+    "flight": "step_attack/flight_04",
+    "samples": 3111,
+    "time_origin_px4_us": 10860000,
+    "duration_sec": 62.2,
+    "gnss_nonzero_horizontal_values": 6222
+  },
+  {
+    "flight": "step_attack/flight_05",
+    "samples": 3093,
+    "time_origin_px4_us": 11780000,
+    "duration_sec": 61.84,
+    "gnss_nonzero_horizontal_values": 6186
+  },
+  {
+    "flight": "step_attack/flight_06",
+    "samples": 3105,
+    "time_origin_px4_us": 11340000,
+    "duration_sec": 62.08,
+    "gnss_nonzero_horizontal_values": 6210
+  },
+  {
+    "flight": "step_attack/flight_07",
+    "samples": 3123,
+    "time_origin_px4_us": 12260000,
+    "duration_sec": 62.44,
+    "gnss_nonzero_horizontal_values": 6246
+  },
+  {
+    "flight": "step_attack/flight_08",
+    "samples": 3094,
+    "time_origin_px4_us": 12080000,
+    "duration_sec": 61.86,
+    "gnss_nonzero_horizontal_values": 6188
+  },
+  {
+    "flight": "step_attack/flight_09",
+    "samples": 3075,
+    "time_origin_px4_us": 11640000,
+    "duration_sec": 61.48,
+    "gnss_nonzero_horizontal_values": 6150
+  },
+  {
+    "flight": "step_attack/flight_10",
+    "samples": 3042,
+    "time_origin_px4_us": 12700000,
+    "duration_sec": 60.82,
+    "gnss_nonzero_horizontal_values": 6084
+  },
+  {
+    "flight": "ramp_attack/flight_01",
+    "samples": 2794,
+    "time_origin_px4_us": 11120000,
+    "duration_sec": 55.86,
+    "gnss_nonzero_horizontal_values": 5588
+  },
+  {
+    "flight": "ramp_attack/flight_02",
+    "samples": 2570,
+    "time_origin_px4_us": 14220000,
+    "duration_sec": 51.38,
+    "gnss_nonzero_horizontal_values": 5140
+  },
+  {
+    "flight": "ramp_attack/flight_03",
+    "samples": 2639,
+    "time_origin_px4_us": 13400000,
+    "duration_sec": 52.76,
+    "gnss_nonzero_horizontal_values": 5278
+  },
+  {
+    "flight": "ramp_attack/flight_04",
+    "samples": 2556,
+    "time_origin_px4_us": 21980000,
+    "duration_sec": 51.1,
+    "gnss_nonzero_horizontal_values": 5112
+  },
+  {
+    "flight": "ramp_attack/flight_05",
+    "samples": 2614,
+    "time_origin_px4_us": 11220000,
+    "duration_sec": 52.26,
+    "gnss_nonzero_horizontal_values": 5228
+  },
+  {
+    "flight": "ramp_attack/flight_06",
+    "samples": 2625,
+    "time_origin_px4_us": 12460000,
+    "duration_sec": 52.48,
+    "gnss_nonzero_horizontal_values": 5250
+  },
+  {
+    "flight": "ramp_attack/flight_07",
+    "samples": 2554,
+    "time_origin_px4_us": 14580000,
+    "duration_sec": 51.06,
+    "gnss_nonzero_horizontal_values": 5108
+  },
+  {
+    "flight": "ramp_attack/flight_08",
+    "samples": 2572,
+    "time_origin_px4_us": 32200000,
+    "duration_sec": 51.42,
+    "gnss_nonzero_horizontal_values": 5144
+  },
+  {
+    "flight": "ramp_attack/flight_09",
+    "samples": 2610,
+    "time_origin_px4_us": 32040000,
+    "duration_sec": 52.18,
+    "gnss_nonzero_horizontal_values": 5220
+  },
+  {
+    "flight": "ramp_attack/flight_10",
+    "samples": 2575,
+    "time_origin_px4_us": 10940000,
+    "duration_sec": 51.48,
+    "gnss_nonzero_horizontal_values": 5150
+  },
+  {
+    "flight": "stealth_attack/flight_01",
+    "samples": 2655,
+    "time_origin_px4_us": 11320000,
+    "duration_sec": 53.08,
+    "gnss_nonzero_horizontal_values": 5310
+  },
+  {
+    "flight": "stealth_attack/flight_02",
+    "samples": 2603,
+    "time_origin_px4_us": 12740000,
+    "duration_sec": 52.04,
+    "gnss_nonzero_horizontal_values": 5206
+  },
+  {
+    "flight": "stealth_attack/flight_03",
+    "samples": 2618,
+    "time_origin_px4_us": 17840000,
+    "duration_sec": 52.34,
+    "gnss_nonzero_horizontal_values": 5236
+  },
+  {
+    "flight": "stealth_attack/flight_04",
+    "samples": 2588,
+    "time_origin_px4_us": 10720000,
+    "duration_sec": 51.74,
+    "gnss_nonzero_horizontal_values": 5176
+  },
+  {
+    "flight": "stealth_attack/flight_05",
+    "samples": 2599,
+    "time_origin_px4_us": 10600000,
+    "duration_sec": 51.96,
+    "gnss_nonzero_horizontal_values": 5198
+  },
+  {
+    "flight": "stealth_attack/flight_06",
+    "samples": 2588,
+    "time_origin_px4_us": 10260000,
+    "duration_sec": 51.74,
+    "gnss_nonzero_horizontal_values": 5176
+  },
+  {
+    "flight": "stealth_attack/flight_07",
+    "samples": 2616,
+    "time_origin_px4_us": 11120000,
+    "duration_sec": 52.3,
+    "gnss_nonzero_horizontal_values": 5232
+  },
+  {
+    "flight": "stealth_attack/flight_08",
+    "samples": 2654,
+    "time_origin_px4_us": 18340000,
+    "duration_sec": 53.06,
+    "gnss_nonzero_horizontal_values": 5308
+  },
+  {
+    "flight": "stealth_attack/flight_09",
+    "samples": 2590,
+    "time_origin_px4_us": 18300000,
+    "duration_sec": 51.78,
+    "gnss_nonzero_horizontal_values": 5180
+  },
+  {
+    "flight": "stealth_attack/flight_10",
+    "samples": 2586,
+    "time_origin_px4_us": 13500000,
+    "duration_sec": 51.7,
+    "gnss_nonzero_horizontal_values": 5172
+  }
+]

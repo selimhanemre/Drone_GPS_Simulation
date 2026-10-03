@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite this versioned research software when using the code or simulation data. The associated manuscript has no confirmed publication DOI in this release."
+type: software
+title: "Drone GPS Simulation: Defending the Autonomous Airspace"
+version: 0.1.0
+date-released: "2026-10-02"
+authors:
+  - family-names: Dagtas
+    given-names: Selimhan
+  - family-names: Mohammed
+    given-names: Muzakkiruddin Ahmed
+  - family-names: Elfikky
+    given-names: Abdelrahman
+repository-code: "https://github.com/selimhanemre/Drone_GPS_Simulation"
+url: "https://github.com/selimhanemre/Drone_GPS_Simulation/releases/tag/v0.1.0"
+license: MIT
+keywords:
+  - GNSS
+  - spoofing detection
+  - PX4
+  - simulation
+  - reproducible research
+abstract: "Simulation data and offline analysis accompanying Defending the Autonomous Airspace: Real-Time Defense of Stealthy GNSS Spoofing via Kinematic Memory. Includes supplied results, corrected telemetry extraction, and held-out nominal-flight evaluation."

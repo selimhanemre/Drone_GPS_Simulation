@@ -1,0 +1,15 @@
+{
+  "sample_period_sec": 0.02,
+  "analysis_end_sec": 50.0,
+  "attack_onset_sec": 25.0,
+  "attack_onset_status": "25 seconds relative to preserved synchronized flight origin, confirmed by project contributor on 2026-10-02",
+  "gnss_smoothing_samples": 10,
+  "residual_smoothing_samples": 25,
+  "z_threshold": 3.0,
+  "cusum_leak": 0.85,
+  "cusum_drift": 0.5,
+  "cusum_threshold": 10.0,
+  "isolation_contamination": 0.01,
+  "isolation_estimators": 100,
+  "random_seed": 42
+}

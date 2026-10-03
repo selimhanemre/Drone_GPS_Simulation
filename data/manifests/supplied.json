@@ -1,0 +1,1202 @@
+[
+  {
+    "path": "data/processed/nominal/flight_01/ekf_estimated.csv",
+    "bytes": 671936,
+    "sha256": "d42826a2855e0345b440e9f76f9ff369c03655ea4a3b5a65e8e6ecb2c628e9f1"
+  },
+  {
+    "path": "data/processed/nominal/flight_01/ekf_innovations.csv",
+    "bytes": 258735,
+    "sha256": "9cfd7fcfd61bc5871a096d9844c39d24e9a1def0239b75285ae8121b746fb455"
+  },
+  {
+    "path": "data/processed/nominal/flight_01/gnss.csv",
+    "bytes": 1552,
+    "sha256": "725fa7fb8a1d55925a0a6062113e5342c8e4555e2a3b35471f2e9c01ed455f15"
+  },
+  {
+    "path": "data/processed/nominal/flight_01/ground_truth.csv",
+    "bytes": 243771,
+    "sha256": "9bfdbdec543a6c597ddf3378b8282277491261bbc60bc7f86b9ae06c3bfdd753"
+  },
+  {
+    "path": "data/processed/nominal/flight_01/imu.csv",
+    "bytes": 1400689,
+    "sha256": "93be3d47aea44feec64eee4f962e51e7392bd4d9d4d96bf70e5872297d30f0c7"
+  },
+  {
+    "path": "data/processed/nominal/flight_02/ekf_estimated.csv",
+    "bytes": 579225,
+    "sha256": "1e6e914b5f1b59ac78127ab6d46b585ca6e053fb6a065cc98b0639cfb19dfe1f"
+  },
+  {
+    "path": "data/processed/nominal/flight_02/ekf_innovations.csv",
+    "bytes": 237173,
+    "sha256": "b4b2737a4af36d3c45204f6899e8830915c1cd89f50bc4bd3697bb4e88367fa2"
+  },
+  {
+    "path": "data/processed/nominal/flight_02/gnss.csv",
+    "bytes": 1552,
+    "sha256": "a22fae16a864b5cec7a5e59abdf2348fd721fdd2f1d5077e83349dea0d5a77df"
+  },
+  {
+    "path": "data/processed/nominal/flight_02/ground_truth.csv",
+    "bytes": 216289,
+    "sha256": "a9c12235a9592a9d3f398c23b009b5dd4f3dc9573b73885b010aa3b925f586a0"
+  },
+  {
+    "path": "data/processed/nominal/flight_02/imu.csv",
+    "bytes": 1219144,
+    "sha256": "97cfa8db1e0ee98d0857c01dd20963f90c3e7bb622c25c1919e8756c386ce9b8"
+  },
+  {
+    "path": "data/processed/nominal/flight_03/ekf_estimated.csv",
+    "bytes": 734671,
+    "sha256": "09159d593a7c345074950b316f67a3b06433f3b6e2a6170f49713ac1bd7a9421"
+  },
+  {
+    "path": "data/processed/nominal/flight_03/ekf_innovations.csv",
+    "bytes": 275148,
+    "sha256": "c6d87a18573ece6a52ef8f7a4c5adb8b2e6dd62160001a61f4c826a15d1e3408"
+  },
+  {
+    "path": "data/processed/nominal/flight_03/gnss.csv",
+    "bytes": 1606,
+    "sha256": "88b48af1fd3ee2bb2d5b626b0f08b98e79d18f4bc7586f621819d77bb81edd2c"
+  },
+  {
+    "path": "data/processed/nominal/flight_03/ground_truth.csv",
+    "bytes": 255861,
+    "sha256": "634242ab89cc4df80e57f0c430657f06fc8cf1b658f9c7284e601008fa85cd0b"
+  },
+  {
+    "path": "data/processed/nominal/flight_03/imu.csv",
+    "bytes": 1512826,
+    "sha256": "789214bee91512d1136ed674550fefc8735b198210ce6ef16c1545a7acbb70a9"
+  },
+  {
+    "path": "data/processed/nominal/flight_04/ekf_estimated.csv",
+    "bytes": 636395,
+    "sha256": "f76015152338bebfb2ab0991c3c540df66531e53c7c2acaff1f3e8c31952b6e5"
+  },
+  {
+    "path": "data/processed/nominal/flight_04/ekf_innovations.csv",
+    "bytes": 252745,
+    "sha256": "6ca9ae8efa7105227c29740fcc14176221fc810a439430afd41f023b93310025"
+  },
+  {
+    "path": "data/processed/nominal/flight_04/gnss.csv",
+    "bytes": 1579,
+    "sha256": "ec8f27227f694da764bd62cbcb5f30b8eca63059ec5f19261fa8675e19a52335"
+  },
+  {
+    "path": "data/processed/nominal/flight_04/ground_truth.csv",
+    "bytes": 232826,
+    "sha256": "c281a79de0c26cd7d1859cc6b1d1685fc440493ec0aa88179dd4470f65fe4a5b"
+  },
+  {
+    "path": "data/processed/nominal/flight_04/imu.csv",
+    "bytes": 1328939,
+    "sha256": "7ece9075d9f747ae24b08b9d3472c3f06bb3bf73331458f1fc3e7e5a49981ca5"
+  },
+  {
+    "path": "data/processed/nominal/flight_05/ekf_estimated.csv",
+    "bytes": 1337600,
+    "sha256": "f651ddf4df366f1cf513678455c2ecfb92cda29bd8d6c84f7672bb30948323b8"
+  },
+  {
+    "path": "data/processed/nominal/flight_05/ekf_innovations.csv",
+    "bytes": 410936,
+    "sha256": "6a3cd9f54474fd02685abda11b2358f1dce0ef07ac1e0a857f0aa40ef9a57ae2"
+  },
+  {
+    "path": "data/processed/nominal/flight_05/gnss.csv",
+    "bytes": 1611,
+    "sha256": "b5409331a1ce6d06b1545158d5b8d47acc5e674b08af7f455e8e38ee30aca3ce"
+  },
+  {
+    "path": "data/processed/nominal/flight_05/ground_truth.csv",
+    "bytes": 424754,
+    "sha256": "2b6c95af21d9d16045288b7f7af0e8651fa4493a2a61cf91dbf6a5fdfc41e8b2"
+  },
+  {
+    "path": "data/processed/nominal/flight_05/imu.csv",
+    "bytes": 2701414,
+    "sha256": "fa4e187653b2a45d8f179a94eb808defc64a992b6bc8b5fc086250c339501375"
+  },
+  {
+    "path": "data/processed/nominal/flight_06/ekf_estimated.csv",
+    "bytes": 617975,
+    "sha256": "ee7d7c571db898f357e8364367e52d6db849468f1b3e719edd42069d257fb27e"
+  },
+  {
+    "path": "data/processed/nominal/flight_06/ekf_innovations.csv",
+    "bytes": 249840,
+    "sha256": "6f6aff2f0a91b3cba2792d89300712b67f3cc25f8cc3869ea4f18f185165ab4b"
+  },
+  {
+    "path": "data/processed/nominal/flight_06/gnss.csv",
+    "bytes": 1579,
+    "sha256": "5e64040a6fb31d4e2fd2d1d57c99176086b4bf21fb15fb07c2f83a6005987e1e"
+  },
+  {
+    "path": "data/processed/nominal/flight_06/ground_truth.csv",
+    "bytes": 229855,
+    "sha256": "9e35c618dc2cdaff609e1764799125126846c3fbac17d27bb8ce0defe726fb00"
+  },
+  {
+    "path": "data/processed/nominal/flight_06/imu.csv",
+    "bytes": 1295806,
+    "sha256": "f187cb42871de7716a520aab6f5089280fafa5d8d48b58f2644da9811a0e230a"
+  },
+  {
+    "path": "data/processed/nominal/flight_07/ekf_estimated.csv",
+    "bytes": 573484,
+    "sha256": "de5410ce195eef345fa538f9cece455cf7b3e60c68499ab0a3f87f5798754305"
+  },
+  {
+    "path": "data/processed/nominal/flight_07/ekf_innovations.csv",
+    "bytes": 237843,
+    "sha256": "129db9df306507c5a99a6345771773af625d8b7ac16d5025f3662047179da8cf"
+  },
+  {
+    "path": "data/processed/nominal/flight_07/gnss.csv",
+    "bytes": 1577,
+    "sha256": "e1426a8ca5b7b59d7e02e29ad404d12c63fda35986d3c39f2840bf86c524889a"
+  },
+  {
+    "path": "data/processed/nominal/flight_07/ground_truth.csv",
+    "bytes": 213457,
+    "sha256": "4e3db0c304d9d41bd0a39c83c6ab1cfd4b91a3297698329ebf839df9ee5aefba"
+  },
+  {
+    "path": "data/processed/nominal/flight_07/imu.csv",
+    "bytes": 1208764,
+    "sha256": "8b878dda63a45ce5786f886e173d058eef1189e5ba9045a0e281d8a6d9d7a882"
+  },
+  {
+    "path": "data/processed/nominal/flight_08/ekf_estimated.csv",
+    "bytes": 919917,
+    "sha256": "279f2f2d61ee3153f4381ecde94035aa820dbced378f22294212f063a99e59d6"
+  },
+  {
+    "path": "data/processed/nominal/flight_08/ekf_innovations.csv",
+    "bytes": 317246,
+    "sha256": "c7c5eb2b9ad1551ab4e5010cb5919ed6af1f232e3c7996576769e3a7c4f3cd06"
+  },
+  {
+    "path": "data/processed/nominal/flight_08/gnss.csv",
+    "bytes": 1606,
+    "sha256": "e158ce9638278ef90d7501da4876785a14efcb241a6fcb3041a5dc44c5638c61"
+  },
+  {
+    "path": "data/processed/nominal/flight_08/ground_truth.csv",
+    "bytes": 313454,
+    "sha256": "261721b14fa30cb7a7fde7cb8ad4a3b8bfcf8eb49363cf67ea9f5f12a28b7248"
+  },
+  {
+    "path": "data/processed/nominal/flight_08/imu.csv",
+    "bytes": 1883338,
+    "sha256": "1dabd7a561957bdbca8bd8b4b3fd8cf614c096e26052a4244e644ef58390184b"
+  },
+  {
+    "path": "data/processed/nominal/flight_09/ekf_estimated.csv",
+    "bytes": 644750,
+    "sha256": "a2777cfb0e4964bfbf6b2c079eac66127b56c7651182081cb24dee8e69811bab"
+  },
+  {
+    "path": "data/processed/nominal/flight_09/ekf_innovations.csv",
+    "bytes": 254349,
+    "sha256": "c7694a76f02f03a06d4fa8fa702f9eb79359235ec88237c91e5546285917d114"
+  },
+  {
+    "path": "data/processed/nominal/flight_09/gnss.csv",
+    "bytes": 1579,
+    "sha256": "497f238ecfc6e704acb1ffad731d9cb35bf40fd7c6c66d9f8c03320bab5307fd"
+  },
+  {
+    "path": "data/processed/nominal/flight_09/ground_truth.csv",
+    "bytes": 236849,
+    "sha256": "93a26975845d76865ad96771031c132b9f200738dcaad6f753f031f38087bc93"
+  },
+  {
+    "path": "data/processed/nominal/flight_09/imu.csv",
+    "bytes": 1346402,
+    "sha256": "791d952ad33fe9feb4492f550e168c9edc52834836a898b080e56c88febc600b"
+  },
+  {
+    "path": "data/processed/nominal/flight_10/ekf_estimated.csv",
+    "bytes": 739621,
+    "sha256": "966d9db338955af3eff19f0006bba94203463437a377f0a04832c8172c023573"
+  },
+  {
+    "path": "data/processed/nominal/flight_10/ekf_innovations.csv",
+    "bytes": 273068,
+    "sha256": "b266d9f1c58d37fc514fd2b56d8e7cf2f8723d3dbacb058de330d2d60aba711c"
+  },
+  {
+    "path": "data/processed/nominal/flight_10/gnss.csv",
+    "bytes": 1579,
+    "sha256": "cf4f0ece65f59dca751892e7b1cc7b50aa68c88e4d5580485263268c781dd862"
+  },
+  {
+    "path": "data/processed/nominal/flight_10/ground_truth.csv",
+    "bytes": 260707,
+    "sha256": "6fa41161985c993007f93c4f3b31ca99e15582d8a40181c466a56a5018308987"
+  },
+  {
+    "path": "data/processed/nominal/flight_10/imu.csv",
+    "bytes": 1519072,
+    "sha256": "78bc32b4a8ebbf5d61f3b1dd5b112d6a4130fac4b749132531ad5e843c3214df"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_01/ekf_estimated.csv",
+    "bytes": 599967,
+    "sha256": "6e25a02215a8547482ab4c41c6cf454cf3ee1abd4b166c5334070161b71675b3"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_01/ekf_innovations.csv",
+    "bytes": 243951,
+    "sha256": "64d0696ac28a0e4dde816bac6a2f39be1adaacfa4b4a71fb00e90cc479570aa0"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_01/gnss.csv",
+    "bytes": 1579,
+    "sha256": "fa913dbdc8252e8083717176746db9e750fc35fc599a71241d30729363d7c58d"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_01/ground_truth.csv",
+    "bytes": 221516,
+    "sha256": "4925d91f73feba592c1b2b1ff59bf18791de27f3bb0fd18e1c1657a1ca88b755"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_01/imu.csv",
+    "bytes": 1241239,
+    "sha256": "9dbf9672cb41f9dd43f85c1e1b3d299fa0816ad665ab8df133891f58bc3d2939"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_02/ekf_estimated.csv",
+    "bytes": 591443,
+    "sha256": "50478ad8841c01497f085b2975deff28ab2ce102ad2bd46af0c4a94ca3f1763b"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_02/ekf_innovations.csv",
+    "bytes": 234837,
+    "sha256": "a0cd25770f7491dfc19e5ef3ae7f7b381b5471de3ac48d2c801efe2759efef26"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_02/gnss.csv",
+    "bytes": 1471,
+    "sha256": "272ca94183b6f1f3576804a1d2b0ceec9f5d1803a9528fd632d5cb7a4bdfb6a6"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_02/ground_truth.csv",
+    "bytes": 214331,
+    "sha256": "9c29e0b0369cf79512d2077d0671a684497152cce4fe78fcb01bba5c6813bbea"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_02/imu.csv",
+    "bytes": 1221557,
+    "sha256": "93f232e20420de4d34112a342f09f0965e730316d4d36480c8193c5d515c2780"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_03/ekf_estimated.csv",
+    "bytes": 591056,
+    "sha256": "8ecdb4d45832bd1d44207454599d91ed7155f18f49893187f4c5eb89187733c3"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_03/ekf_innovations.csv",
+    "bytes": 237667,
+    "sha256": "3a0ef35639cf587abf1c31fc8be1fa3925ae7bbdbb525a9f6dca7ae119265295"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_03/gnss.csv",
+    "bytes": 1498,
+    "sha256": "ecd417a9c9db9ba66187d5c5e5d17b77e807e3a23a6ab0420589dfc63e8a5ec0"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_03/ground_truth.csv",
+    "bytes": 217817,
+    "sha256": "93a120de8eede12e417270127ffb9218e8ffa70fb02db187c0dd2fb4abd67a12"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_03/imu.csv",
+    "bytes": 1233349,
+    "sha256": "e62860c4a81f07162cdb51edf875186d8d96d6f3a9df1f7f172979bb83625f3f"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_04/ekf_estimated.csv",
+    "bytes": 679575,
+    "sha256": "d4b6b8ca893c4db550d2187519be2c1217278813057a96d7160aa55abfb03aaf"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_04/ekf_innovations.csv",
+    "bytes": 252638,
+    "sha256": "f9a0a9271c8d193cd77510b519e2812d2f2040abe187b4f7d9c6a4295e4a8f56"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_04/gnss.csv",
+    "bytes": 1471,
+    "sha256": "9cd1b90618d6601a6a79d031c144380ae5b9da34b688dcd1d1c92bc20ce24d05"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_04/ground_truth.csv",
+    "bytes": 237927,
+    "sha256": "b9ffa13c9aba0e1b781f046ab0e050fbcccbd9438beac9ef839838d950907e40"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_04/imu.csv",
+    "bytes": 1387650,
+    "sha256": "af3cef80e73ace4b7ff57c54b6d20fc70595b33fbc51826e711a75b57899e9ec"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_05/ekf_estimated.csv",
+    "bytes": 564442,
+    "sha256": "77eef9ce9c6589adb3e79068c41255aed383957fd482e124ab6788a2cba93fdd"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_05/ekf_innovations.csv",
+    "bytes": 229386,
+    "sha256": "b86c3ecf67ae8fc69c6d88530f284089de9942dd1d55648fd3c170a97d0bb83a"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_05/gnss.csv",
+    "bytes": 1498,
+    "sha256": "ce9b0bb6c96fce501d69bbbb42be7efddea1e5aaccfcfe7800039511a8d84176"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_05/ground_truth.csv",
+    "bytes": 209026,
+    "sha256": "34dff3a1df93a1767cde21e2f33c18d6c42c1bb8b453d7455512161d09a90971"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_05/imu.csv",
+    "bytes": 1178478,
+    "sha256": "c2dce4f2b27d4050e0d68c50c7e9b3a60fb609e48a7a8d2c9000bf63243c1165"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_06/ekf_estimated.csv",
+    "bytes": 579676,
+    "sha256": "c908432bbdaa188827c0b3f0c91ec449ef0f4ab81387c0551ea0a1c12009df4d"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_06/ekf_innovations.csv",
+    "bytes": 233369,
+    "sha256": "1cae040b41827f0812ec5fbb83dd3469d5335aefdd21533131c20d601d847c2c"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_06/gnss.csv",
+    "bytes": 1498,
+    "sha256": "f5dc432d4cdcf1c20d351fc93dda740799a32fd63d232a6b49949227ea3277f3"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_06/ground_truth.csv",
+    "bytes": 213056,
+    "sha256": "00b3bc92696e7e28e9e7388ff88058147259c0127a3e7831d7ca927e28d8ec3a"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_06/imu.csv",
+    "bytes": 1202565,
+    "sha256": "f6ac7a89a17ffe8e3ab86d3867b522a2fea94ecfa0207e62c4c6c283a29b1403"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_07/ekf_estimated.csv",
+    "bytes": 626889,
+    "sha256": "4fcc8e0d32d5bf27ebe15430fd77d2cb7ea76560183126e7b1bc125cf9ef0489"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_07/ekf_innovations.csv",
+    "bytes": 240962,
+    "sha256": "e467c783c2c35b4a5eed50d0077d3fc2bd4bde6956fcd440cacde95d26cd37d6"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_07/gnss.csv",
+    "bytes": 1471,
+    "sha256": "d7694c1637b567f171cb1ee620bc24177452d87bab25ff81c75c664b1a1b85dc"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_07/ground_truth.csv",
+    "bytes": 224121,
+    "sha256": "ef1bca583768e387f902414a788da4474537e08032aaa6ed5d8f3ad2682fa778"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_07/imu.csv",
+    "bytes": 1285731,
+    "sha256": "e367dc6badeb3ef3fc3325aacd977df1256c3069498e2e1903b908dbf84a648d"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_08/ekf_estimated.csv",
+    "bytes": 794861,
+    "sha256": "dc4ab944c87945df697b636ecfc649cc96dfe71a5c0acf3b53f0dbff9ae62632"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_08/ekf_innovations.csv",
+    "bytes": 279598,
+    "sha256": "a42763a1389f77c65c609e773b306fbb6d8ad0e0cb93828ebad0e249711dc0db"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_08/gnss.csv",
+    "bytes": 1471,
+    "sha256": "e1f347e82c5828ed5c06e549d2d0e23945836f6d1a9f8ec5c66cb91ecb2b4117"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_08/ground_truth.csv",
+    "bytes": 270838,
+    "sha256": "ade723ee8f01e036421d17bab01900baf3339ae9c4a8e02887967a8dd3ea71f8"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_08/imu.csv",
+    "bytes": 1619111,
+    "sha256": "e8a13daef3d897c740f8768aa79fb652f06f77f321acd8f1a477b9a03c522af3"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_09/ekf_estimated.csv",
+    "bytes": 800605,
+    "sha256": "1ba04d3a318c81b0d3482a5a7a431a34da503bfab59bb04e16022121e7298611"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_09/ekf_innovations.csv",
+    "bytes": 282530,
+    "sha256": "2cd428f049e6d2b6f1f4cc23b230a8f06a744dc59654a9b3c8410735c7efd3de"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_09/gnss.csv",
+    "bytes": 1498,
+    "sha256": "018d453ba394f0ce632fec8841c78fe34d8dbcdfe11d88e49b177f474af5a4d9"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_09/ground_truth.csv",
+    "bytes": 273434,
+    "sha256": "6502a121625668f46a3ea673d72e489a7cffefd2deaa35b75ed3de8131be050f"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_09/imu.csv",
+    "bytes": 1631764,
+    "sha256": "8a22d128372f83aa08878266f3601603f2811931e981aa1d223369c2f691a8ac"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_10/ekf_estimated.csv",
+    "bytes": 551510,
+    "sha256": "0d07a00e66eae3e4d6fd529125dba4159a7b92a6d1b8aacc982dc0f7ffd127e6"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_10/ekf_innovations.csv",
+    "bytes": 225482,
+    "sha256": "30e1096f2780c49776db01f564f050247c47cb2bf6644d2e1d026081d52c5345"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_10/gnss.csv",
+    "bytes": 1471,
+    "sha256": "7d2d7984b4abd42646fd328e342214d823dc71db54a2cbbc3d35f96db2698560"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_10/ground_truth.csv",
+    "bytes": 205255,
+    "sha256": "29fa6c5567fdb406ee680acebf28cd07790e3a941bbc1a839686c4f04839b50f"
+  },
+  {
+    "path": "data/processed/ramp_attack/flight_10/imu.csv",
+    "bytes": 1152471,
+    "sha256": "3bc54eae045f7474ae72bb71f7f06b277990e9155d578992cd7dc8e34067a2cf"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_01/ekf_estimated.csv",
+    "bytes": 572553,
+    "sha256": "3563dcf60276df06360677dac815cc1c92809638b802a6650c025a72ce6fe315"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_01/ekf_innovations.csv",
+    "bytes": 234018,
+    "sha256": "96cf92dfd831e05875b4477ad4a9d9f75b80dce5254475772bce775002789381"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_01/gnss.csv",
+    "bytes": 1525,
+    "sha256": "acfb4c6f1b96b43e8cf15d68fa012b6bbade4286cab7171c4bd093f652d978ff"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_01/ground_truth.csv",
+    "bytes": 213237,
+    "sha256": "e220d36e5b65dce27864b46b61285e5a7c6a04f4737a1b6a6d36162bcfede0ec"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_01/imu.csv",
+    "bytes": 1196359,
+    "sha256": "c5a84f69ba848c84a671dd4ae92e63d1a331d857211dd964defeb7a8e9987cd4"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_02/ekf_estimated.csv",
+    "bytes": 579209,
+    "sha256": "50149925254788ac11974b8c6b04bc3db55cce099e661fc6dbedfea57448bc7f"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_02/ekf_innovations.csv",
+    "bytes": 234605,
+    "sha256": "9cf8de4de64b46d3f3e32022185ec2b9e2fbd2be84bf109385a8f92f308c54f8"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_02/gnss.csv",
+    "bytes": 1498,
+    "sha256": "bbb5719c16d63c2b136c71dd4e032f688ab341080cf3eef3de7ae15bdb2b2e40"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_02/ground_truth.csv",
+    "bytes": 213668,
+    "sha256": "49599168509233a37b5da80f06cc3bb8cc934ff2060630aa295f4242b5d71f3e"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_02/imu.csv",
+    "bytes": 1211610,
+    "sha256": "2fdba28ae573f01c74d1230c80a929d5ef03a61897225b19f33861f25fcb8374"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_03/ekf_estimated.csv",
+    "bytes": 641325,
+    "sha256": "9e0ea88ff47dbd221aa04080564db2c14dbffc0bc3d9be743e2ea2e189717f20"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_03/ekf_innovations.csv",
+    "bytes": 247643,
+    "sha256": "cc7248aef2539c61de973262d7ef282d857c03b5fa21876ce8c78b542f4a5a06"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_03/gnss.csv",
+    "bytes": 1498,
+    "sha256": "4f41670e8c2e66da3bed60145be5b00d8a78f743021ea2e54b6bd630e2595e7d"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_03/ground_truth.csv",
+    "bytes": 230878,
+    "sha256": "5ccfde8762717769baffccfa9f70ff23fc6b180ccab497e426bff019d3f9867f"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_03/imu.csv",
+    "bytes": 1330747,
+    "sha256": "b9bc2dd8275e07c742e3656f0f610ffa7d98760d8ed87923874e5863c56a8535"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_04/ekf_estimated.csv",
+    "bytes": 557638,
+    "sha256": "651ab3a22500fea264dee4881c190752e65edd017dab87b13df9476197b0811f"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_04/ekf_innovations.csv",
+    "bytes": 227914,
+    "sha256": "eb3eddc5cda3c2da9b21de3566ef2fcd1072df37fa6582d461e381a797662134"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_04/gnss.csv",
+    "bytes": 1471,
+    "sha256": "98076f0c965952e673ef138cefbd141173f3252535ac90da7ad2150fb887696b"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_04/ground_truth.csv",
+    "bytes": 206475,
+    "sha256": "4d59b13de2b103ada32bae619f7a5455a0f4dc5ac5160f2e13a3effcd55459ff"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_04/imu.csv",
+    "bytes": 1162075,
+    "sha256": "ad67afb825f15c7b0ded8a137990e3e3bd6debb222d2f23026eeb3b6901d5da7"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_05/ekf_estimated.csv",
+    "bytes": 554325,
+    "sha256": "61b75177f91a8ad570946af5e0fa443b87d546e9780feed71d70cf541a179503"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_05/ekf_innovations.csv",
+    "bytes": 227289,
+    "sha256": "788b41e8cebfca7b7b1c0a8b7f454fd3d1e62f70d78fd88a7b5b0397df12385b"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_05/gnss.csv",
+    "bytes": 1471,
+    "sha256": "6e843fd555a27f805a1625f55765db4fcea95a425455a9d1d104fe6e3b2c5525"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_05/ground_truth.csv",
+    "bytes": 207003,
+    "sha256": "f384f47f8ba7bf691d9d2110c9457d1cfde89179b4cc4dd8439d5dcd69034504"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_05/imu.csv",
+    "bytes": 1162369,
+    "sha256": "422c7ae6b54fcca54d82c91951134d63f8cd6f310282d017ea2a401f43fcdad4"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_06/ekf_estimated.csv",
+    "bytes": 549696,
+    "sha256": "8fef20f11729f76d150f05ca0e886d6c6dbbf61af21f1eb85b0c8f5f1bf457d0"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_06/ekf_innovations.csv",
+    "bytes": 226092,
+    "sha256": "0dc6423995345634b014cb14e0aa9d2e512bd34567f87806ff01ba47a96f1b28"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_06/gnss.csv",
+    "bytes": 1471,
+    "sha256": "63e358dbe1596a750cf7f64e3a401ff318b189ea37bf2082eaf5756e33d15e2f"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_06/ground_truth.csv",
+    "bytes": 204051,
+    "sha256": "190073e043842568bb7bc2abf06067b2e601c97d728c9770d82539acee5a76f6"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_06/imu.csv",
+    "bytes": 1149698,
+    "sha256": "6e3f15ad7b9241a9a263ee71a9cf1fa7fa60e3c5f0d0547065b7701a542e1df6"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_07/ekf_estimated.csv",
+    "bytes": 567865,
+    "sha256": "fcd70e8b714c47b6863a4f9918b3f06da88a31617630fefee627ecb5525d73c7"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_07/ekf_innovations.csv",
+    "bytes": 231078,
+    "sha256": "369bc49f173e15b4af1292356d37d30864eb7eba51014347c58e76c214c80abe"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_07/gnss.csv",
+    "bytes": 1498,
+    "sha256": "f891a441f95162bbf71d0d7803bba66e2837640961789adc571f3bc6a09a3f78"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_07/ground_truth.csv",
+    "bytes": 209398,
+    "sha256": "f48f7c0c995ee83c8a3fed3d0ea42d7e3815b2f4c7c965f243c32803f201b5cc"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_07/imu.csv",
+    "bytes": 1181140,
+    "sha256": "b383bad0eaa90ebecff73515b38458dcbb05d2b1b422f4d75a078b01ffa861a6"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_08/ekf_estimated.csv",
+    "bytes": 652405,
+    "sha256": "1c888db49a278aefef02c9afb4acf2b24cbb9aea5e38072c78c5f362524e4b13"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_08/ekf_innovations.csv",
+    "bytes": 252389,
+    "sha256": "556cce71a2f749236262884eb6f09f0d877a9845a47ec289866a1a6d50fd4770"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_08/gnss.csv",
+    "bytes": 1525,
+    "sha256": "50987e84e39ffbbe4f5028b6019a86dda0fedceee1d5f2b8c7d399b0b7cec238"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_08/ground_truth.csv",
+    "bytes": 235388,
+    "sha256": "a32f810bdd700e8c657ea454815bf91f5265eb95fd098f3082d5ed45c5a5302b"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_08/imu.csv",
+    "bytes": 1354740,
+    "sha256": "c829fc803726a1b7b67d76af0bb72e8dd7fa6d4f8caa1ab81ad7b1671e70516a"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_09/ekf_estimated.csv",
+    "bytes": 644433,
+    "sha256": "e5a4031d404fadd7834441150bfc21ed543b0c3653f7ac9993e607ea2bd18104"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_09/ekf_innovations.csv",
+    "bytes": 246029,
+    "sha256": "c1fd9c166e0c2eadf5b96586d9fee6ab3fee062ac960f46552fa6f3ae193d387"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_09/gnss.csv",
+    "bytes": 1471,
+    "sha256": "3d8b33a89d2cf152c18b70b024b8a8a266f3e7aa19f8ff4232dc53a6072b858e"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_09/ground_truth.csv",
+    "bytes": 229563,
+    "sha256": "7aa5823adfb247b83506d282c93715bde698ec3a7991b18f8a920a1a4c253e1e"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_09/imu.csv",
+    "bytes": 1325149,
+    "sha256": "851488600ec4139ea27ac044f7958e60592b68c4b8eced7cc3a44f3080c99db9"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_10/ekf_estimated.csv",
+    "bytes": 587905,
+    "sha256": "998c82858f03ecf392563a573bed1bcb54baeb78b08bddd49ab471ab43051107"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_10/ekf_innovations.csv",
+    "bytes": 233786,
+    "sha256": "4d56f28db285c32af206dc20e452102e346752845d25f8a9125a5073d0c65244"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_10/gnss.csv",
+    "bytes": 1471,
+    "sha256": "fbbabf09ce22e4331cd3316ac84ef64720e0168c63e78cec9fb30f852d30f9ee"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_10/ground_truth.csv",
+    "bytes": 214750,
+    "sha256": "3d0b3da4c1c4d5639dec0d709fa6a354ed2cd1cf2d4fdc76e090393ac0f84f02"
+  },
+  {
+    "path": "data/processed/stealth_attack/flight_10/imu.csv",
+    "bytes": 1220240,
+    "sha256": "5231fdb3eaf6343e8833e889bccfdb546574fa017a2dec8216d4f081e428acc1"
+  },
+  {
+    "path": "data/processed/step_attack/flight_01/ekf_estimated.csv",
+    "bytes": 807461,
+    "sha256": "2ab3f513f6bcc13c0a22fe00f3f00a169b78a62e9bb61dc72e7e7ff55a989bdc"
+  },
+  {
+    "path": "data/processed/step_attack/flight_01/ekf_innovations.csv",
+    "bytes": 293222,
+    "sha256": "32aa036f9a69df039cdb8929d0ab844eab1dd0342e7508b700d2f3e2554d13c1"
+  },
+  {
+    "path": "data/processed/step_attack/flight_01/gnss.csv",
+    "bytes": 1741,
+    "sha256": "cd5c7202a047e4630b4965b8b52245883959e37f130abec270e4dfdc4edb0035"
+  },
+  {
+    "path": "data/processed/step_attack/flight_01/ground_truth.csv",
+    "bytes": 286968,
+    "sha256": "b3170956b3a96c195954d43d38f27786af732f1139a424242f93ff8774edd958"
+  },
+  {
+    "path": "data/processed/step_attack/flight_01/imu.csv",
+    "bytes": 1673910,
+    "sha256": "1391c81e11f93941f92b2582c11118975bae9c1b06fada7e5974e4cccd538c20"
+  },
+  {
+    "path": "data/processed/step_attack/flight_02/ekf_estimated.csv",
+    "bytes": 799425,
+    "sha256": "2d8b424a01de5563cb1bfd28d94bdc8052d070b12c99e2357c8dac07d013ab02"
+  },
+  {
+    "path": "data/processed/step_attack/flight_02/ekf_innovations.csv",
+    "bytes": 294498,
+    "sha256": "bcab1597f65d13e1a122aee6bcdbb1f6368d354af89f3c7003568ad26e937495"
+  },
+  {
+    "path": "data/processed/step_attack/flight_02/gnss.csv",
+    "bytes": 1768,
+    "sha256": "365d47f1559f1d4bb2017fb6462d19f95ff457e9890446e2d2bdeae18796dfb3"
+  },
+  {
+    "path": "data/processed/step_attack/flight_02/ground_truth.csv",
+    "bytes": 285745,
+    "sha256": "9b8dee563ea865134260808dcd3c476abaac30d010bc02c2b4e053da6e5bbc61"
+  },
+  {
+    "path": "data/processed/step_attack/flight_02/imu.csv",
+    "bytes": 1654203,
+    "sha256": "2052bf3f38e2a3b76550d9a7faf2d803d74ea037b8bc02637cc1886fdc34873a"
+  },
+  {
+    "path": "data/processed/step_attack/flight_03/ekf_estimated.csv",
+    "bytes": 641040,
+    "sha256": "97fd7d1a24df21b1537e6bd41328deaed31a5e5b3302553b7466e75fcc9fbe11"
+  },
+  {
+    "path": "data/processed/step_attack/flight_03/ekf_innovations.csv",
+    "bytes": 256774,
+    "sha256": "044fb45cb16e82b6d9e49ee35b2bca2205f72365e54386a95a241173a0cf0a5a"
+  },
+  {
+    "path": "data/processed/step_attack/flight_03/gnss.csv",
+    "bytes": 1741,
+    "sha256": "b1041bf28c94b0cb52ccc85649c11f14f8394894e4165b3ffafe631caf6b9154"
+  },
+  {
+    "path": "data/processed/step_attack/flight_03/ground_truth.csv",
+    "bytes": 241595,
+    "sha256": "825e1669b88aad8f2479ea7e5523adf10a582bce73aff0b3b298fc133e6c8031"
+  },
+  {
+    "path": "data/processed/step_attack/flight_03/imu.csv",
+    "bytes": 1356213,
+    "sha256": "f3b8186a9ee8e7f9eb448276e3113b137c3f82eaecd44ef5e56ad8f711afb9e4"
+  },
+  {
+    "path": "data/processed/step_attack/flight_04/ekf_estimated.csv",
+    "bytes": 645452,
+    "sha256": "8b46e69b407cabbd3daa1af66599e9a54d44dce0e7680aaad99e632d2dc44231"
+  },
+  {
+    "path": "data/processed/step_attack/flight_04/ekf_innovations.csv",
+    "bytes": 260982,
+    "sha256": "8aeaa1c86fbdf723f2e573d399be1d65ab05c6a3017af6a07e8eaab16e7d7660"
+  },
+  {
+    "path": "data/processed/step_attack/flight_04/gnss.csv",
+    "bytes": 1768,
+    "sha256": "004d10ba6ee5cf5c740ad861131e5c7e5d7a8d1f1fc555c0955aed8a76aa8174"
+  },
+  {
+    "path": "data/processed/step_attack/flight_04/ground_truth.csv",
+    "bytes": 243291,
+    "sha256": "7c7583f7be0449a79de2c7b1d6c16d08ad4125d44da21e645f4bec2620ff490b"
+  },
+  {
+    "path": "data/processed/step_attack/flight_04/imu.csv",
+    "bytes": 1372793,
+    "sha256": "a4caf5524a107ad1b38d8b2ff1562d059a09738aef1d267c3b8287934bc4ce1c"
+  },
+  {
+    "path": "data/processed/step_attack/flight_05/ekf_estimated.csv",
+    "bytes": 657738,
+    "sha256": "8fed6c2c3e4158ee9d3f7b2581b54aae56e4862fb0628d88423e06ecdb2e24b7"
+  },
+  {
+    "path": "data/processed/step_attack/flight_05/ekf_innovations.csv",
+    "bytes": 261363,
+    "sha256": "3417d2708238b986c87c5d40560594c44f3bfcdf877c9707cd1b34195be8128c"
+  },
+  {
+    "path": "data/processed/step_attack/flight_05/gnss.csv",
+    "bytes": 1741,
+    "sha256": "b3e0943ff157367e97000f15b672176bb42796b03b5240f01ee617352ec7b60c"
+  },
+  {
+    "path": "data/processed/step_attack/flight_05/ground_truth.csv",
+    "bytes": 246825,
+    "sha256": "075650a1cb30e56e01b3a9b1c6b1da67026a35f799859d09929cc6229d30f8ed"
+  },
+  {
+    "path": "data/processed/step_attack/flight_05/imu.csv",
+    "bytes": 1385705,
+    "sha256": "45911a0f6f239c73ef341aabcc82cf5ba553585cc9f7ec6c45ac76808a5f59b5"
+  },
+  {
+    "path": "data/processed/step_attack/flight_06/ekf_estimated.csv",
+    "bytes": 654787,
+    "sha256": "3e8b7b90eb09abcf6fa1a74c5dc6b2edde707d8f2669efc0becbdeef842fffaa"
+  },
+  {
+    "path": "data/processed/step_attack/flight_06/ekf_innovations.csv",
+    "bytes": 261161,
+    "sha256": "26b173300d5bcf75307278e5f5ad6a3088be437c992174ce54400c4a928210f3"
+  },
+  {
+    "path": "data/processed/step_attack/flight_06/gnss.csv",
+    "bytes": 1768,
+    "sha256": "19b112dfffde0ec9784076f8d7e517dbb102320bf447a398744fc1ec7db372e8"
+  },
+  {
+    "path": "data/processed/step_attack/flight_06/ground_truth.csv",
+    "bytes": 245600,
+    "sha256": "d0ba7015fb2b9bdfb0870c41ce870808ef0db95a5297031dda618c9c2dd7effe"
+  },
+  {
+    "path": "data/processed/step_attack/flight_06/imu.csv",
+    "bytes": 1381632,
+    "sha256": "02a87f3c5928f000e4961da669e3aefd0573fa76d9c03bd84b0c615b407bd29f"
+  },
+  {
+    "path": "data/processed/step_attack/flight_07/ekf_estimated.csv",
+    "bytes": 667362,
+    "sha256": "4ec91d04dbdb10e7d21f00a099d6da9f9a5ec412286fa213b913615481f837d1"
+  },
+  {
+    "path": "data/processed/step_attack/flight_07/ekf_innovations.csv",
+    "bytes": 264830,
+    "sha256": "76b733d0738a0fca15f2e6ae04f75762f9b0f26f4cd266e8c8c7492fc286cb28"
+  },
+  {
+    "path": "data/processed/step_attack/flight_07/gnss.csv",
+    "bytes": 1768,
+    "sha256": "a2b397ee77e332ab0a7292015ae54889f8ab2158c11e5438952d5d57c211a2ef"
+  },
+  {
+    "path": "data/processed/step_attack/flight_07/ground_truth.csv",
+    "bytes": 249998,
+    "sha256": "5ceef509c132b3e58fd4d9e0bb48f81df65770cd78161b0abd591cc0c633349b"
+  },
+  {
+    "path": "data/processed/step_attack/flight_07/imu.csv",
+    "bytes": 1404584,
+    "sha256": "e5ee04a165b1a33ef1ac024ffcd9f6443db1c915d63b73b38f8a055fbd896ce9"
+  },
+  {
+    "path": "data/processed/step_attack/flight_08/ekf_estimated.csv",
+    "bytes": 656405,
+    "sha256": "97c836a0cb5b62ffb3e31fd7d1a1829344c0063e051ab707732dd6896d6ae4c3"
+  },
+  {
+    "path": "data/processed/step_attack/flight_08/ekf_innovations.csv",
+    "bytes": 262648,
+    "sha256": "b1d99ee9d119a3fbb8b053b1d10a3d702f518189d9b058be8ee427cca2f97b2c"
+  },
+  {
+    "path": "data/processed/step_attack/flight_08/gnss.csv",
+    "bytes": 1741,
+    "sha256": "63deececb708b422f3c0dac1e75680777ce7fdcf73990f705e4f25720a923b85"
+  },
+  {
+    "path": "data/processed/step_attack/flight_08/ground_truth.csv",
+    "bytes": 246738,
+    "sha256": "64fda76c18cf82a8886509eae733a99d91d61e91279754bbc93f5dda5af9a1d9"
+  },
+  {
+    "path": "data/processed/step_attack/flight_08/imu.csv",
+    "bytes": 1384442,
+    "sha256": "5edbdfba119e17e994a3359c4af4abb4167566dbd4b53e0c7383a9e070d9d739"
+  },
+  {
+    "path": "data/processed/step_attack/flight_09/ekf_estimated.csv",
+    "bytes": 652698,
+    "sha256": "ecac1797a3eaa4f67d090901fe84dffb4315a43170693577bd42392fe2ffa82c"
+  },
+  {
+    "path": "data/processed/step_attack/flight_09/ekf_innovations.csv",
+    "bytes": 260501,
+    "sha256": "27f04c19f26d4400e1c4acb968309301e36eddec733bce8fed280aa9c51b57d0"
+  },
+  {
+    "path": "data/processed/step_attack/flight_09/gnss.csv",
+    "bytes": 1741,
+    "sha256": "e42d64b916ee4e031f48a19b897c5d71978288c1e0344931bdbe7e79b458d82f"
+  },
+  {
+    "path": "data/processed/step_attack/flight_09/ground_truth.csv",
+    "bytes": 244582,
+    "sha256": "6d5fdea5407e9c53bc1adcb36ad8cae005e7583b3d5476c746dc9a611de31668"
+  },
+  {
+    "path": "data/processed/step_attack/flight_09/imu.csv",
+    "bytes": 1373649,
+    "sha256": "bb1ed724f012e0587f17cf4336c5ab9a75666fe59d239c2eff52126bbfe5de06"
+  },
+  {
+    "path": "data/processed/step_attack/flight_10/ekf_estimated.csv",
+    "bytes": 657352,
+    "sha256": "6b38f139d3ed28df02950ee7e195db4c2c8ddcaf6c1017ca92f586872c34b98e"
+  },
+  {
+    "path": "data/processed/step_attack/flight_10/ekf_innovations.csv",
+    "bytes": 259395,
+    "sha256": "0b4cb092af67aae576fe456ee415e5e59117b0384c3b407975ed87f61717abb7"
+  },
+  {
+    "path": "data/processed/step_attack/flight_10/gnss.csv",
+    "bytes": 1714,
+    "sha256": "8f6983f07e7cc27f436e8f94615264f6bf73dc9e5836229443de2a993636b34d"
+  },
+  {
+    "path": "data/processed/step_attack/flight_10/ground_truth.csv",
+    "bytes": 244899,
+    "sha256": "ae37ece1ecd63d6589688fd791d75f920c6f469cf67e24d27f3d9dbcd59b7135"
+  },
+  {
+    "path": "data/processed/step_attack/flight_10/imu.csv",
+    "bytes": 1384859,
+    "sha256": "0b7eeff7a4feb5ae268ec6cab6a851f8d64f1d11fc57397b5821d04bdf64dd6e"
+  },
+  {
+    "path": "data/processed/synced/nominal/flight_01.csv",
+    "bytes": 1082467,
+    "sha256": "7a44022cacb0b3997c176b3dbd00fde4d4023f8af91ffa778209bddc5b382c9f"
+  },
+  {
+    "path": "data/processed/synced/nominal/flight_02.csv",
+    "bytes": 1069324,
+    "sha256": "fdf529fd3a37e7c09220222698537aad30d9f23e88d512366f43d1cb874e7ba8"
+  },
+  {
+    "path": "data/processed/synced/nominal/flight_03.csv",
+    "bytes": 1124333,
+    "sha256": "f6dbc24735897eafeee265d77a30ce44907f7a787cf558cea9ca4391f901112b"
+  },
+  {
+    "path": "data/processed/synced/nominal/flight_04.csv",
+    "bytes": 1102974,
+    "sha256": "564b473f9276b8c4b885b393d425e1df8aafbea31f32078bfb924d1457b07950"
+  },
+  {
+    "path": "data/processed/synced/nominal/flight_05.csv",
+    "bytes": 1107357,
+    "sha256": "9dfbb4f4806590cd662942d76c5543fa3c3a63c29a79b85dc0288c95db461aff"
+  },
+  {
+    "path": "data/processed/synced/nominal/flight_06.csv",
+    "bytes": 1113669,
+    "sha256": "c279c21fe52b677d57fece12ad5af12b738283696d60a344580fd38eeba84761"
+  },
+  {
+    "path": "data/processed/synced/nominal/flight_07.csv",
+    "bytes": 1091922,
+    "sha256": "c0520725e955e26d751fc0af6ae59c6cffe8f39dee6664c993dafd1e2989e913"
+  },
+  {
+    "path": "data/processed/synced/nominal/flight_08.csv",
+    "bytes": 1130763,
+    "sha256": "c76584d7ab91cbac61a88b3629694fe7fd3002e8d0847075837fcd92fc8bdcae"
+  },
+  {
+    "path": "data/processed/synced/nominal/flight_09.csv",
+    "bytes": 1109124,
+    "sha256": "c67b03fda80640f783db3b95a4eb3965856862172c8236fe05fb97a603d0eb82"
+  },
+  {
+    "path": "data/processed/synced/nominal/flight_10.csv",
+    "bytes": 1106669,
+    "sha256": "eefa5b7d466968c56a87dd87b303fc3d39aa5a917d8ba2d8504d1ee8bd73f37c"
+  },
+  {
+    "path": "data/processed/synced/ramp_attack/flight_01.csv",
+    "bytes": 1101210,
+    "sha256": "3c863831b609c9fc3eff54c5095d97f8a15745e67d708191f3d06feec8f260f3"
+  },
+  {
+    "path": "data/processed/synced/ramp_attack/flight_02.csv",
+    "bytes": 1006981,
+    "sha256": "2c99ba0726f8d5949fec656e727636f0b2ed79bc8e61b1a3b6b5c1d059bd683c"
+  },
+  {
+    "path": "data/processed/synced/ramp_attack/flight_03.csv",
+    "bytes": 1034949,
+    "sha256": "98fdc3ebdb8eacf7bf66f672ad728cf6e787da2a39100a599b85e219693ac4c0"
+  },
+  {
+    "path": "data/processed/synced/ramp_attack/flight_04.csv",
+    "bytes": 1011160,
+    "sha256": "5fc972a6e0cb891a463841b8c37cfaeffddafe214e19150f69b0038a89a74455"
+  },
+  {
+    "path": "data/processed/synced/ramp_attack/flight_05.csv",
+    "bytes": 1034791,
+    "sha256": "32a81af908b75f174227b91d5589b795bea9a0fd7e18026c6546c2427bb6aea1"
+  },
+  {
+    "path": "data/processed/synced/ramp_attack/flight_06.csv",
+    "bytes": 1026117,
+    "sha256": "faebe3f8190873af827aa42f81bcfc2ac6d8fd25f4a3b146fd9f2528c8ca48e6"
+  },
+  {
+    "path": "data/processed/synced/ramp_attack/flight_07.csv",
+    "bytes": 1002821,
+    "sha256": "5050227b8ed393ef55fc03bb32176413a849e8c585929ddde645bd9e9964c3ce"
+  },
+  {
+    "path": "data/processed/synced/ramp_attack/flight_08.csv",
+    "bytes": 1009181,
+    "sha256": "abc84a18304ad64b8d7a2394813b9438b53c079192e73af327a6383db4fb17f4"
+  },
+  {
+    "path": "data/processed/synced/ramp_attack/flight_09.csv",
+    "bytes": 1032938,
+    "sha256": "7abf2d1651b6028f19f43131a64a6057cf9c6f8aea72d429ea75e23dc6e39f7f"
+  },
+  {
+    "path": "data/processed/synced/ramp_attack/flight_10.csv",
+    "bytes": 1009242,
+    "sha256": "6b95feaac04e5cb9b5e1d5bc7e912f42870c24b3267fc61ff16e96e9c5a88cab"
+  },
+  {
+    "path": "data/processed/synced/stealth_attack/flight_01.csv",
+    "bytes": 1045077,
+    "sha256": "d47af3ebfcaa213b32d7f62cf8f322b287a1cf053fe2ab0f9a0e30c64c0ac722"
+  },
+  {
+    "path": "data/processed/synced/stealth_attack/flight_02.csv",
+    "bytes": 1032546,
+    "sha256": "ecf284d7bcf1098b5ee87c2736281b51fdcec12e2f4efb710ea38b4f7d1a8a1a"
+  },
+  {
+    "path": "data/processed/synced/stealth_attack/flight_03.csv",
+    "bytes": 1030227,
+    "sha256": "c5f108487dc471aed6032ee81ca237e6306a5501c481ea4bd908a2071455601f"
+  },
+  {
+    "path": "data/processed/synced/stealth_attack/flight_04.csv",
+    "bytes": 1023956,
+    "sha256": "c45ed477f7e0efa90f3ca5deaf40b2a80d9f20b70610844661168288ea0e6e6f"
+  },
+  {
+    "path": "data/processed/synced/stealth_attack/flight_05.csv",
+    "bytes": 1022429,
+    "sha256": "4797a5ae93349d48753b910f1c7022603b1de44c74860e2eabe5c5bf3fd639a8"
+  },
+  {
+    "path": "data/processed/synced/stealth_attack/flight_06.csv",
+    "bytes": 1023095,
+    "sha256": "7d84fc49eb582389b764c825c165e35455a40131fcf0b682a3d8ee0e4d95c6d3"
+  },
+  {
+    "path": "data/processed/synced/stealth_attack/flight_07.csv",
+    "bytes": 1038177,
+    "sha256": "0d734e7085223467dc23200884b07b00a9ed79f19d3a4c90b76a3165d7182605"
+  },
+  {
+    "path": "data/processed/synced/stealth_attack/flight_08.csv",
+    "bytes": 1045981,
+    "sha256": "f81c7ad99f94e68cd7470a1e8441d6a786a0f50f02efb66263502e570bb6eea3"
+  },
+  {
+    "path": "data/processed/synced/stealth_attack/flight_09.csv",
+    "bytes": 1026765,
+    "sha256": "06707ce231d326cfac2ac275f02d2170832bdb9f720c8f40e7dd558fc4acd41b"
+  },
+  {
+    "path": "data/processed/synced/stealth_attack/flight_10.csv",
+    "bytes": 1018759,
+    "sha256": "9022b2f3dbf6f95e1ebf7b8c0f3bf760e55816f9ce78328b706b25917ab81b4a"
+  },
+  {
+    "path": "data/processed/synced/step_attack/flight_01.csv",
+    "bytes": 1211208,
+    "sha256": "a5483d9d469e8cbbdb989fbba799c26f6ed25fc5400840f7b760cf4f5d07b513"
+  },
+  {
+    "path": "data/processed/synced/step_attack/flight_02.csv",
+    "bytes": 1221349,
+    "sha256": "a7a6de0a18fda4c17798c4fb01b1abfa315d7b7dda69060c1d7f529f9e40826e"
+  },
+  {
+    "path": "data/processed/synced/step_attack/flight_03.csv",
+    "bytes": 1192105,
+    "sha256": "91fab4bb26a361a3a39a55f6f1f8c4d2a055575c6ac0b568afe2b3afb8a155f6"
+  },
+  {
+    "path": "data/processed/synced/step_attack/flight_04.csv",
+    "bytes": 1212365,
+    "sha256": "b5c01a77c607c24ca67ef5034f36fc8fd0bbb94ae6782167a9845d53386d9811"
+  },
+  {
+    "path": "data/processed/synced/step_attack/flight_05.csv",
+    "bytes": 1213229,
+    "sha256": "7be64a5ad84fb5078db2a03164a2e8afc901028aa58cfdc304dcf8fc6de8d9d3"
+  },
+  {
+    "path": "data/processed/synced/step_attack/flight_06.csv",
+    "bytes": 1212343,
+    "sha256": "cef8e9579f23f40ae3b6d43b2f3e4fbb78c62e1ee6f0dd97294879749341ad5e"
+  },
+  {
+    "path": "data/processed/synced/step_attack/flight_07.csv",
+    "bytes": 1217465,
+    "sha256": "a075e56e75bc184ded0a8765d23ec6c39c7119af17333717e9a1ce726ce4ee1e"
+  },
+  {
+    "path": "data/processed/synced/step_attack/flight_08.csv",
+    "bytes": 1211219,
+    "sha256": "fd882bedd18e1de7e039b99e1e3017112849bf7fcf9501233459e5b9f9280e1e"
+  },
+  {
+    "path": "data/processed/synced/step_attack/flight_09.csv",
+    "bytes": 1198995,
+    "sha256": "f0abdc3a8a59576a8e5b4987011f15a58c41476252a17139a579e0cbf1c1007d"
+  },
+  {
+    "path": "data/processed/synced/step_attack/flight_10.csv",
+    "bytes": 1190774,
+    "sha256": "d6ca34279591eda9038c1f4f4a06899b31913eed2da803ad034fbdfc9bfd7bde"
+  }
+]

@@ -1,0 +1,13 @@
+Category,Detector,Flights,F1_mean,F1_std,False_alarm_flights,Clean_detections,Latency_mean_sec,Latency_count
+nominal,Mahalanobis,10,0.0,0.0,0,0,,0
+nominal,IsoForest,10,0.0,0.0,10,0,,0
+nominal,Leaky_CUSUM,10,0.0,0.0,0,0,,0
+step_attack,Mahalanobis,10,0.6761,0.0013703203194063043,0,10,14.687999999999999,10
+step_attack,IsoForest,10,0.9682999999999999,0.03328346269378967,4,6,2.7833333333333337,6
+step_attack,Leaky_CUSUM,10,0.8230000000000001,0.0755130599447686,0,10,8.857999999999999,10
+ramp_attack,Mahalanobis,10,0.5740000000000001,0.01632993161855448,0,10,17.942,10
+ramp_attack,IsoForest,10,0.9865999999999999,0.013459403982181208,5,5,0.8119999999999997,5
+ramp_attack,Leaky_CUSUM,10,0.7393,0.010371435130523977,0,10,12.406,10
+stealth_attack,Mahalanobis,10,0.0,0.0,0,0,,0
+stealth_attack,IsoForest,10,0.9846,0.024726054634287647,5,5,1.472,5
+stealth_attack,Leaky_CUSUM,10,0.5381,0.01192988777073038,0,10,18.968,10

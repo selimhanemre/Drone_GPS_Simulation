@@ -1,0 +1,15 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.csv text eol=lf
+*.json text eol=lf
+*.svg text eol=lf
+*.png binary
+*.pdf binary
+# Preserve provenance files and exact dataset sample hashes across platforms.
+archive/original-code/** -text -whitespace
+results/supplied/** -text -whitespace
+data/example/** -text -whitespace
+# Matplotlib writes harmless trailing spaces in SVG path definitions.
+*.svg -whitespace

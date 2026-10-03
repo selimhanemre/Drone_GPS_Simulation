@@ -1,0 +1,3 @@
+# Gazebo gz.transport13 / gz.msgs10 are installed through Gazebo's system packages.
+# See docs/SIMULATION.md; they are not supplied by this pip requirements file.
+pymavlink==2.4.50
